@@ -5,6 +5,7 @@ using namespace std;
 template <typename T ,typename h>
 class BfsSolver {
     private:
+    
     vector<RubiksCube::MOVE> bfs_helper(T rubrikscube) {
         queue<T> q;
         vector<RubiksCube::MOVE> res;
