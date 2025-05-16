@@ -1,7 +1,3 @@
-//
-// Created by Lenovo on 16-05-2025.
-//
-
 #include <bits/stdc++.h>
 #include "../Model/RubiksCube.h"
 using namespace std;
