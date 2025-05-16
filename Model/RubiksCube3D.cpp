@@ -1,5 +1,5 @@
 #include "RubiksCube.h"
-
+#pragma once
 class rubiksCube3D : public RubiksCube {
     private:
         void rotateFace(int ind){

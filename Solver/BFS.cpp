@@ -9,13 +9,10 @@ class BfsSolver {
     vector<RubiksCube::MOVE> bfs_helper(T rubrikscube) {
         queue<T> q;
         vector<RubiksCube::MOVE> res;
-
         q.push(rubrikscube);
         unordered_map<T, bool, h> visited;
         unordered_map<T, pair<T, RubiksCube::MOVE>, h> move_done;
-
         visited[rubrikscube] = true;
-
         while (!q.empty()) {
             T node = q.front();
             q.pop();

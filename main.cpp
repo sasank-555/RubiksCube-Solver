@@ -13,7 +13,7 @@ int main() {
     }
     cout<<endl;
     cube.print();
-    BfsSolver <rubiksCube3D , Hash3d > dd(cube);
+    dfsSolver <rubiksCube3D> dd(cube , 9);
     vector<RubiksCube::MOVE> ans = dd.solve();
     cout<<"Solution \n";
     for (const auto i : ans) {
