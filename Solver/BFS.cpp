@@ -1,8 +1,6 @@
 #include <bits/stdc++.h>
 #include "../Model/RubiksCube.h"
 using namespace std;
-#ifndef RUBIKS_CUBE_SOLVER_BFSSOLVER_H
-#define RUBIKS_CUBE_SOLVER_BFSSOLVER_H
 
 template <typename T ,typename h>
 class BfsSolver {
@@ -60,6 +58,3 @@ class BfsSolver {
 };
 
 
-
-
-#endif

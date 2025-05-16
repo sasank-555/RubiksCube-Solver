@@ -1,7 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-#ifndef RUBIKS_CUBE_SOLVER_RUBIKSCUBE_H
-#define RUBIKS_CUBE_SOLVER_RUBIKSCUBE_H
+#pragma once
 class RubiksCube { 
     public:
     enum class COLOR {
@@ -78,6 +77,3 @@ enum class MOVE {
 
         uint8_t getCornerOrientation(uint8_t ind) const;
 };
-
-
-#endif //RUBIKS_CUBE_SOLVER_RUBIKSCUBE_H
