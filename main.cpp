@@ -3,7 +3,7 @@
 #include "../Rubiks/Solver/DFS.cpp"
 #include "../Rubiks/Solver/BFS.cpp"
 using namespace std;
-
+// Created By Sasank
 int main() {
     rubiksCube3D cube;
     auto x= cube.randomShuffleCube(7);
