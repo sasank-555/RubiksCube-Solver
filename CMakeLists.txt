@@ -9,4 +9,5 @@ add_executable(Rubiks main.cpp
         Model/RubiksCube3D.cpp
         Model/RubiksCube1D.cpp
         Solver/DFS.cpp
-        Solver/BFS.cpp)
+        Solver/BFS.cpp
+        Solver/IDDFS.cpp)

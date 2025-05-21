@@ -2,6 +2,7 @@
 #include  "../Rubiks/Model/RubiksCube3D.cpp"
 #include "../Rubiks/Solver/DFS.cpp"
 #include "../Rubiks/Solver/BFS.cpp"
+#include "../Rubiks/Solver/IDDFS.cpp"
 using namespace std;
 // Created By Sasank
 int main() {
@@ -13,7 +14,7 @@ int main() {
     }
     cout<<endl;
     cube.print();
-    dfsSolver <rubiksCube3D> dd(cube , 9);
+    IDDFS <rubiksCube3D> dd(cube , 9);
     vector<RubiksCube::MOVE> ans = dd.solve();
     cout<<"Solution \n";
     for (const auto i : ans) {

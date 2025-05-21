@@ -1,6 +1,7 @@
 #include <bits/stdc++.h>
 #include "../Model/RubiksCube.h"
 using namespace std;
+#pragma once
 
 template <typename T>
 class dfsSolver {
